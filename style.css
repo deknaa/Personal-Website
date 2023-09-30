@@ -35,3 +35,27 @@ ul > li > a {
     color: #EEF4ED;
     text-decoration: none;
 }
+
+main {
+    background-color: #13315C;
+}
+
+.wrapper_main {
+    display: flex;
+    margin: 0 10% 0 10%;
+    padding-top: 10%;
+    gap: 20%;
+}
+
+.main_left {
+    color: #EEF4ED;
+}
+
+.main_left > h1 {
+    font-size: 65pt;
+    margin-top: 10%;
+}
+
+h1 > span {
+    color: #8DA9C4;
+}
