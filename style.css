@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #0B2545;
+}
+
+.wrapper_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+.wrapper_nav > h1 {
+    color: #EEF4ED;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+ul > li > a {
+    color: #EEF4ED;
+    text-decoration: none;
+}
