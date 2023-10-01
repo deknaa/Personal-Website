@@ -84,7 +84,7 @@ h1 > span {
     align-items: center;
 }
 
-.wrapper_button > #button_download_cv {
+#button_download_cv {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,5 +92,25 @@ h1 > span {
     margin-left: 20px;
     margin-top: 18px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
+#button_download_cv:hover {
+    text-decoration: underline;
+    padding-top: 5px;
+}
+
+#button_download_cv > img {
+    margin-left: 5px;
+}
+
+.wrapper_icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.wrapper_icons > a {
+    margin-top: 20px;
+}
