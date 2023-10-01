@@ -47,15 +47,50 @@ main {
     gap: 20%;
 }
 
-.main_left {
+.text_main {
     color: #EEF4ED;
 }
 
-.main_left > h1 {
+.text_main > h1 {
     font-size: 65pt;
     margin-top: 10%;
+}
+
+.text_main > p {
+    width: 550px;
 }
 
 h1 > span {
     color: #8DA9C4;
 }
+
+#button_cta {
+    display: inline-block;
+    background-color: #0B2545;
+    padding: 15px 25px;
+    margin-top: 20px;
+    color: #EEF4ED;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#button_cta:hover {
+    background-color: #0a1d34;
+}
+
+.wrapper_button {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper_button > #button_download_cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EEF4ED;
+    margin-left: 20px;
+    margin-top: 18px;
+    text-decoration: none;
+}
+
