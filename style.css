@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Import Font From Google Font */
@@ -56,11 +57,12 @@ main {
 }
 
 .text_main > h1 {
-    font-size: 65pt;
+    font-size: 55pt;
     margin-top: 10%;
 }
 
 .text_main > p {
+    margin-top: 10px;
     width: 550px;
 }
 
@@ -125,30 +127,50 @@ h1 > span {
 
 /* Portfolio */
 #portfolio {
+    margin-bottom: 5%;
+}
+
+.card {
+    opacity: 0.5;
+    display: flex;
+    transition: 0.5s;
+    filter: blur(3px);
+}
+
+.card:hover{
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.1;
+    filter: blur(0);
+}
+
+.wrapper_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 5%;
-}
-
-#portfolio > h2 {
-    font-size: 15pt;
-}
-
-#portfolio > p {
-    font-size: 30pt;
-}
-
-.card {
-    width: 300px;
-}
-
-.wrapper_text > h2,p {
     align-items: center;
 }
 
-/* .card > img {
-    
-} */
+.wrapper_text > h2 {
+    font-size: 15pt;
+}
 
+.wrapper_text > p {
+    font-size: 30pt;
+}
+
+.wrapper_portfolio {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.card > h2 {
+    width: 500px;
+}
 /* Akhir Portfolio */
