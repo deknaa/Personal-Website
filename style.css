@@ -75,7 +75,7 @@ h1 > span {
     background-color: #0B2545;
     padding: 15px 25px;
     margin-top: 20px;
-    color: #EEF4ED;
+    color: #545454;
     border-radius: 5px;
     text-decoration: none;
     transition: 0.5s;
@@ -83,6 +83,7 @@ h1 > span {
 
 #button_cta:hover {
     background-color: #0a1d34;
+    color: #EEF4ED;
 }
 
 .wrapper_button {
@@ -172,5 +173,26 @@ h1 > span {
 
 .card > h2 {
     width: 500px;
+}
+
+.wrapper_link_portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_portfolio {
+    background-color: #13315C;
+    color: #545454;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#button_portfolio:hover {
+    background-color: #0B2545;
+    color: #EEF4ED;
 }
 /* Akhir Portfolio */
