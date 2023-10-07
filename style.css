@@ -230,3 +230,18 @@ h1 > span {
     text-align: center;
 }
 /* Akhir Services */
+
+/* Skills */
+#skills {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper_skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* Akhir Skills */
