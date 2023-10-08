@@ -61,6 +61,7 @@ ul > li > a:hover {
 }
 /* Akhir Navbar */
 
+/* Main */
 main {
     background-color: #13315C;
 }
@@ -82,3 +83,59 @@ main {
 .wrapper_main > p {
     width: 500px;
 }
+/* Akhir Main */
+
+/* About */
+#about {
+    margin: 7% 10% 0 10%;
+}
+
+.wrapper_about {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper_about > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapper_about > p {
+    text-align: center;
+}
+
+.wrapper_icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3%;
+}
+
+.wrapper_icons > a {
+    text-decoration: none;
+}
+
+.wrapper_button_cv {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.wrapper_button_cv > a {
+    background-color: #13315C;
+    padding: 20px;
+    color: #545454;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.wrapper_button_cv > a:hover {
+    background-color: #0B2545;
+    padding: 20px;
+    color: #EEF4ED;
+    border-radius: 100px;
+    text-decoration: none;
+}
+/* Akhir About */
