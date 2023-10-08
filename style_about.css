@@ -119,7 +119,7 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .wrapper_button_cv > a {
@@ -139,3 +139,19 @@ main {
     text-decoration: none;
 }
 /* Akhir About */
+
+/* Footer */
+footer {
+    background-color: #13315C;
+    display: flex;
+    justify-content: center;
+    color: #EEF4ED;
+    height: 70px;
+    align-items: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #8DA9C4;
+}
+/* Akhir Footer */
