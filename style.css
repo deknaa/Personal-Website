@@ -285,3 +285,19 @@ h1 > span {
     text-decoration: none;
 }
 /* Akhir About Me */
+
+/* Footer */
+footer {
+    background-color: #13315C;
+    display: flex;
+    justify-content: center;
+    color: #EEF4ED;
+    height: 70px;
+    align-items: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #8DA9C4;
+}
+/* Akhir Footer */
