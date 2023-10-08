@@ -93,6 +93,13 @@ ul > li > a:hover {
     gap: 10px;
 }
 
+.portfolio_2 {
+    /* margin-top: 7%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .card > img {
     border-radius: 10px;
 }
