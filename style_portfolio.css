@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Import Font From Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap');
+/* Akhir Import Font From Google Font */
+
+/* Navbar */
+nav {
+    background-color: #0B2545;
+}
+
+.wrapper_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+#active {
+    background-color: #13315C;
+    padding: 20px;
+    border-radius: 10px;
+    color: #EEF4ED;
+}
+
+.wrapper_nav > h1 {
+    color: #EEF4ED;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+ul > li > a {
+    color: #545454;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul > li > a:hover {
+    color: #EEF4ED;
+    text-decoration: none;
+}
+
+#active:hover{
+    background-color: #0a1d34;
+    color: #8DA9C4;
+}
+/* Akhir Navbar */
+#portfolio {
+    margin: 10% 10% 5% 10%;
+}
+
+.wrapper_text_portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_text_portfolio > h1 {
+    font-size: 25pt;
+}
+
+.wrapper_text_portfolio > p {
+    width: 800px;
+    text-align: center;
+}
+
+.wrapper_text_portfolio > a {
+    text-decoration: none;
+    background-color: #0B2545;
+    color: #EEF4ED;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.portfolio {
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card > img {
+    border-radius: 10px;
+}
