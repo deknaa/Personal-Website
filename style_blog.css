@@ -66,7 +66,7 @@ ul > li > a:hover {
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .wrapper_blog > h1 {
@@ -102,3 +102,19 @@ ul > li > a:hover {
     text-decoration: none;
 }
 /* Akhir Blog */
+
+/* Footer */
+footer {
+    background-color: #13315C;
+    display: flex;
+    justify-content: center;
+    color: #EEF4ED;
+    height: 70px;
+    align-items: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #8DA9C4;
+}
+/* Akhir Footer */
