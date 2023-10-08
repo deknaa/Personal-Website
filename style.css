@@ -252,3 +252,36 @@ h1 > span {
     text-align: center;
 }
 /* Akhir Skills */
+
+/* About Me */
+#about {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.card_about {
+    width: 800px;
+    background-color: #13315C;
+    border-radius: 50px;
+    padding: 40px 50px 0 50px;
+    display: flex;
+}
+
+.wrapper_about {
+    display: flex;
+    justify-content: center;
+    color: #EEF4ED;
+}
+
+.button_about {
+    background-color: #0B2545;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #EEF4ED;
+    text-decoration: none;
+}
+/* Akhir About Me */
